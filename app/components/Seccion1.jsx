@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Seccion1 = () => {
@@ -19,11 +20,24 @@ const Seccion1 = () => {
 
         <div className="flex justify-center sm:justify-start items-center">
           <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-700 border border-gray-500 text-gray-500 px-4 sm:px-10 py-2 text-sm">
+          <Link
+            href="/services"
+            className="hover:underline"
+          >
             Learn more
+          </Link>
           </button>
+
           <button className="flex items-center bg-blue-600 hover:bg-blue-700 transition duration-150 ease-in-out font-semibold lg:font-bold rounded text-gray-100 px-1 sm:px-4 border border-gray-700 py-2 text-sm ml-2 sm:ml-4">
+          <Link
+            href="https://github.com/MartinRot"
+            target="_blank"
+            className="hover:underline flex items-center"
+          >
             Our Projects <FaArrowRightLong className="ml-4" />{" "}
+          </Link>
           </button>
+
         </div>
       </div>
     </div>

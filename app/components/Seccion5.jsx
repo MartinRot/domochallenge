@@ -3,6 +3,7 @@ import Image from "next/image";
 
 /* Images */
 import smartphones from "@/app/assets/smartphones2.png";
+import Link from "next/link";
 
 const Seccion5 = () => {
   return (
@@ -16,9 +17,12 @@ const Seccion5 = () => {
           Maecenas sed diam eget risus varius blandit sit amet non magna.
         </p>
         <div className="flex justify-center items-center md:justify-start mt-6">
-          <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-700 border border-gray-200 text-gray-200 px-4 py-2 text-xs">
-            Hire us
+          <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-950 border border-gray-200 text-gray-200 px-4 py-2 text-xs">
+            <Link href="https://www.linkedin.com/in/martin-rotelli/" className="hover:underline">
+              Hire us
+            </Link>
           </button>
+
         </div>
       </div>
       
@@ -30,8 +34,10 @@ const Seccion5 = () => {
           </h3>
           <p className="text-gray-200 text-sm md:w-2/3">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
           <div className="flex justify-center items-center md:justify-start mt-6">
-            <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-700 border border-gray-200 text-gray-200 px-4 py-2 text-xs">
-              See Projects
+            <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-950 border border-gray-200 text-gray-200 px-4 py-2 text-xs">
+              <Link href="https://github.com/MartinRot" className="hover:underline">
+                See Projects
+              </Link>
             </button>
           </div>
         </div>

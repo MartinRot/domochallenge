@@ -65,12 +65,13 @@ const Navigation = () => {
           <Link href="/case-studies" className="md:p-2 text-sm text-gray-400">
             Case Studies
           </Link>
-          <Link href="/aboute" className="md:p-2 text-sm text-gray-400">
+          <Link href="/about" className="md:p-2 text-sm text-gray-400">
             About
           </Link>
 
           <Link
-            href="/hire"
+            target="_blank"
+            href="https://www.linkedin.com/in/martin-rotelli/"
             className="md:p-2 text-sm flex items-center gap-3 text-white"
           >
             <FaRegIdCard />
@@ -123,7 +124,8 @@ const Navigation = () => {
               About
             </Link>
             <Link
-              href="/hire"
+              target="_blank"
+              href="https://www.linkedin.com/in/martin-rotelli/"
               className="flex gap-3 items-center py-2 px-3 text-gray-400 font-sans font-bold text-lg"
             >
               <FaRegIdCard />

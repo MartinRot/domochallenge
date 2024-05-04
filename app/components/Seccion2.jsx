@@ -1,10 +1,9 @@
+import Link from "next/link";
 import { RiPencilRulerLine } from "react-icons/ri";
 
 const Seccion2 = () => {
   return (
-    <div
-      className="pt-14 pb-8 md:pt-16 md:pb-0 flex justify-center md:mt-16 ml-4 mr-4"
-    >
+    <div className="pt-14 pb-8 md:pt-16 md:pb-0 flex justify-center md:mt-16 ml-4 mr-4">
       <div className="w-4/5 sm:w-5/6 md:w-full xl:w-5/6">
         <header className="text-center mx-auto mb-16 mt-10 sm:mb-6 lg:px-20 w-4/5 sm:w-3/5">
           <h2 className="text-2xl leading-normal font-semibold text-slate-200">
@@ -31,8 +30,10 @@ const Seccion2 = () => {
                 product roadmap for achieving a perfect market fit.
               </p>
               <div className="flex justify-center items-center mt-6">
-                <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-700 border border-gray-500 text-gray-500 px-4 py-2 text-xs">
-                  Learn more
+                <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-900 border border-gray-500 text-gray-500 px-4 py-2 text-xs">
+                  <Link href="/services" className="hover:underline">
+                    Learn more
+                  </Link>
                 </button>
               </div>
             </div>
@@ -52,8 +53,10 @@ const Seccion2 = () => {
                 framework and native mobile languages.
               </p>
               <div className="flex justify-center items-center mt-6">
-                <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-700 border border-gray-500 text-gray-500 px-4 py-2 text-xs">
-                  Learn more
+                <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-900 border border-gray-500 text-gray-500 px-4 py-2 text-xs">
+                  <Link href="/services" className="hover:underline">
+                    Learn more
+                  </Link>
                 </button>
               </div>
             </div>
@@ -73,8 +76,10 @@ const Seccion2 = () => {
                 designs to deliver a good and reliable user experience.
               </p>
               <div className="flex justify-center items-center mt-6">
-                <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-700 border border-gray-500 text-gray-500 px-4 py-2 text-xs">
-                  Learn more
+                <button className="bg-transparent transition duration-150 ease-in-out font-semibold lg:font-bold rounded hover:text-blue-900 border border-gray-500 text-gray-500 px-4 py-2 text-xs">
+                  <Link href="/services" className="hover:underline">
+                    Learn more
+                  </Link>
                 </button>
               </div>
             </div>

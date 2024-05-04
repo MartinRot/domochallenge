@@ -34,10 +34,23 @@ const Footer = () => {
               </p>
 
               <div className="flex gap-5 mt-6">
-                <FaTwitter />
-                <FaDribbble />
-                <FaFacebookSquare />
-                <FaInstagram />
+
+                <Link href="https://twitter.com/home" target="_blank">
+                  <FaTwitter />
+                </Link>
+
+                <Link href="https://dribbble.com/" target="_blank">
+                  <FaDribbble />
+                </Link>
+
+                <Link href="https://facebook.com/" target="_blank">
+                  <FaFacebookSquare />
+                </Link>
+
+                <Link href="https://instagram.com/" target="_blank">
+                  <FaInstagram />
+                </Link>
+
               </div>
             </div>
 
